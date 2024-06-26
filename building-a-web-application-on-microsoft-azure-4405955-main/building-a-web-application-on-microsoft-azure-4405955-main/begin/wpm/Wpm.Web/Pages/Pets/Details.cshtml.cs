@@ -9,6 +9,10 @@ public class DetailsModel : PageModel
 {
     private readonly WpmDbContext dbContext;
 
+
+
+    
+
     public Pet? Pet { get; set; }
     public DetailsModel(WpmDbContext dbContext)
     {
