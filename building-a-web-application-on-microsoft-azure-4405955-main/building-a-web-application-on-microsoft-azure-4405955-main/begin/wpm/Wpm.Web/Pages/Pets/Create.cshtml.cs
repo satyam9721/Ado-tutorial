@@ -7,9 +7,10 @@ using Wpm.Web.Domain;
 namespace Wpm.Web.Pages.Pets;
 
 public class CreateModel : PageModel
+
+
 {
     private readonly WpmDbContext dbContext;
-
 
 
     [BindProperty]
